@@ -20,7 +20,7 @@ export const Searchbar = ({ onSubmit }) => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    // если пустая строка, выводим сообщение
+    //^ якщо пуста строка то виводимо повідомлення
     if (query.trim() === '') {
       toast.info("Sorry, the search string can't be empty. Please try again.");
       return;

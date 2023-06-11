@@ -16,9 +16,5 @@ export const getImages = async (query, page) => {
 
   const response = await axios.get(`?${params}`);
 
-  // if (!response.ok) {
-  //   throw new Error('Smth went wrong');
-  // }
-
   return response.data;
 };

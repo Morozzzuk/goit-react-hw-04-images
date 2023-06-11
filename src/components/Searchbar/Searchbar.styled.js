@@ -1,8 +1,7 @@
 import styled from '@emotion/styled';
-import { Form, Field } from 'formik';
 import { HiMagnifyingGlass } from 'react-icons/hi2';
 
-export const SearchForm = styled(Form)`
+export const SearchForm = styled.form`
   top: 0;
   left: 0;
   position: sticky;
@@ -21,7 +20,7 @@ export const SearchForm = styled(Form)`
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 `;
 
-export const Input = styled(Field)`
+export const Input = styled.input`
   display: flex;
   align-items: center;
   width: 360px;
